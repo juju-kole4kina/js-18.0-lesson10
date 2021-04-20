@@ -15,7 +15,7 @@ books[0].prepend(book[1]);
 books[0].append(book[2]);
 book[0].after(book[4]);
 
-document.querySelector('body').style.backgroundImage = 'url(/image/you-dont-know-js.jpg)';
+document.querySelector('body').style.backgroundImage = 'url(./image/you-dont-know-js.jpg)';
 
 book[4].querySelector('h2').querySelector('a').text = 'Книга 3. this и Прототипы Объектов';
 
